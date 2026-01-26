@@ -41,7 +41,7 @@ O projeto irá recarregar automaticamente ao editar os arquivos.
 
 A forma mais fácil de fazer o deploy de um projeto Next.js é usando a [Vercel](https://vercel.com):
 
-1. Acesse [vercel.com](https://vercel.com/new)
+1. Acesse meu-portfólio-lac-ten.vercel.app
 2. Conecte seu repositório GitHub/GitLab/Bitbucket
 3. A Vercel detectará automaticamente as configurações do Next.js
 4. Clique em **Deploy**
