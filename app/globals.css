@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+body {
+  background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);
+  min-height: 100vh;
+}
+
+/* Animação de abertura - Bem-vindo */
+@keyframes bemVindoFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bemVindoScaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.85) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes bemVindoSubtitleIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.bem-vindo-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fafafa;
+  animation: bemVindoFadeIn 0.5s ease-out forwards;
+}
+
+.bem-vindo-overlay--out {
+  animation: bemVindoFadeOut 0.55s ease-out forwards;
+}
+
+@keyframes bemVindoFadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.bem-vindo-content {
+  text-align: center;
+}
+
+.bem-vindo-title {
+  font-family: var(--font-playfair), serif;
+  font-size: clamp(2.5rem, 10vw, 4.5rem);
+  font-weight: 700;
+  color: #1a1a2e;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.bem-vindo-word {
+  display: inline-block;
+  animation: bemVindoScaleIn 0.9s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s both;
+}
+
+.bem-vindo-subtitle {
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-size: clamp(0.95rem, 3vw, 1.25rem);
+  color: rgba(26, 26, 46, 0.7);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  animation: bemVindoSubtitleIn 0.7s ease-out 0.6s both;
+}
+
+/* Transição de entrada do conteúdo após o Bem-vindo */
+@keyframes pageReveal {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.page-content-reveal {
+  opacity: 0;
+  animation: pageReveal 0.5s ease-out 2.25s forwards;
+}
+
