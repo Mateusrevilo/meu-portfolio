@@ -1,4 +1,4 @@
-# Portfólio - Mateus
+# Portfólio - Mateus Silva
 
 Portfólio pessoal desenvolvido com **Next.js 16**, **React 19**, **TypeScript** e **Tailwind CSS**, apresentando projetos, habilidades e informações de contato.
 
