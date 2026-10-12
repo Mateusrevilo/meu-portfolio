@@ -26,8 +26,17 @@ const Sobre = () => {
                     <div className="text-center md:text-left max-w-2xl">
                         <h1 className="text-4xl font-serif text-gray-800 mb-6">Olá, eu sou Mateus</h1>
                         <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                             Atualmente, curso Engenharia de Software e recentemente concluí minha formação na EBAC, onde entendi que ser um desenvolvedor Front-End é muito mais do que estética — é sobre engenharia, acessibilidade e cuidado com o usuário.
-                            Publiquei 3 projetos que mostram o que aprendi até aqui, mas o que eu mais quero agora é colocar esse conhecimento em prática dentro de um tempo real. Sou focado em aprender, aberto a feedbacks e muito motivado a construir coisas relevantes ao lado das pessoas que combinam esse brilho nos olhos pela tecnologia.
+                            ## Sobre mim
+
+Olá! Sou estudante de Análise e Desenvolvimento de Sistemas pela UNINTER e desenvolvedor em constante evolução, apaixonado por tecnologia e pela criação de soluções que resolvem problemas reais.
+
+Tenho direcionado meus estudos para o desenvolvimento web e backend, utilizando tecnologias como JavaScript, TypeScript, React, Next.js, Node.js e Express, além de bancos de dados, APIs e integração entre sistemas.
+
+Também estou expandindo meus conhecimentos em Cloud Computing, DevOps e Cibersegurança, estudando Linux, Docker, redes e serviços AWS. Tenho interesse em automação de processos e inteligência artificial, buscando integrar diferentes tecnologias para desenvolver aplicações cada vez mais eficientes, seguras e escaláveis.
+
+Acredito que a melhor forma de aprender é colocando o conhecimento em prática. Por isso, desenvolvo projetos pessoais, estudo boas práticas de programação e busco aprimorar minhas habilidades em arquitetura de software, infraestrutura e segurança.
+
+Meu objetivo é evoluir constantemente como profissional de tecnologia, participar de projetos desafiadores e transformar ideias em soluções funcionais que gerem valor para as pessoas e para os negócios.
                         </p>
                         <div className="flex justify-center md:justify-start space-x-4">
                             <button

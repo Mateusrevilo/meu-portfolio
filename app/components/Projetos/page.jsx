@@ -18,9 +18,9 @@ const Projetos = () => {
 
         {
             id: 1,
-            nome: "Sport News",
-            descricao: "Um portal moderno de notícias esportivas construído com Next.js 14, TypeScript e Tailwind CSS, oferecendo uma experiência responsiva e otimizada para todos os dispositivos.",
-            link: "https://sport-news-2vq9.vercel.app/",
+            nome: "Conto de Prata",
+            descricao: "O Conto de Prata 2.0 é um sistema de catálogo e vendas online que permite aos clientes visualizar produtos, selecionar os itens desejados e finalizar a compra pelo WhatsApp. A proposta é simplificar a experiência de compra, mantendo o atendimento e a negociação diretamente com o vendedor.",
+            link: "https://conto-de-prata-2-0.vercel.app/",
             tecnologias:  ["next.png","reactjs.png","typescript.png","tailwind.png"]
         },
 
