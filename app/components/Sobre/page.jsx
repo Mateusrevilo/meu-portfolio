@@ -26,7 +26,7 @@ const Sobre = () => {
                     <div className="text-center md:text-left max-w-2xl">
                         <h1 className="text-4xl font-serif text-gray-800 mb-6">Olá, eu sou Mateus</h1>
                         <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                            ## Sobre mim
+                
 
 Olá! Sou estudante de Análise e Desenvolvimento de Sistemas pela UNINTER e desenvolvedor em constante evolução, apaixonado por tecnologia e pela criação de soluções que resolvem problemas reais.
 
